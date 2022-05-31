@@ -29,7 +29,7 @@ import Link from 'next/link'
         </div>
         <div className="logoName">
             <Link  href="/">
-            <a className="text-yellow-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-bold">Arabic NFTs</a>
+            <a className="text-yellow-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-bold">Simple NFTs</a>
             </Link>
             </div>
 
