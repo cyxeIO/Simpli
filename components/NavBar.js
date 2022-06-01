@@ -24,12 +24,12 @@ import Link from 'next/link'
       <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div className="logo flex-shrink-0 flex items-center">
         <div className="flex-shrink-0 flex items-center">
-          <img className="block lg:hidden h-8 w-auto" src="https://ardapps.com/wp-content/uploads/2021/11/icon-2.png" alt="Workflow"/>
-          <img className="hidden lg:block h-8 w-auto" src="https://ardapps.com/wp-content/uploads/2021/11/icon-2.png" alt="Workflow"/>
+          <img className="block lg:hidden h-8 w-auto" src="https://cyxe.io/simpli-san-logo.png" alt="Workflow"/>
+          <img className="hidden lg:block h-8 w-auto" src="https://cyxe.io/simpli-san-logo.png" alt="Workflow"/>
         </div>
         <div className="logoName">
             <Link  href="/">
-            <a className="text-yellow-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-bold">Simple NFTs</a>
+            <a className="text-yellow-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-bold">Simpli SAN</a>
             </Link>
             </div>
 
@@ -48,7 +48,7 @@ import Link from 'next/link'
             <a  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashbaord</a>
             </Link>
                 <Link href="/create-nfts">
-            <a  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFt</a>
+            <a  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFT</a>
             </Link>
                 
           </div>
