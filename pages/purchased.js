@@ -155,10 +155,10 @@ const purchased  = ()=>{
                   !purchasedItems.length ? 
                  <>
                  
-                   <HeadAlert >{{account:account,createdNumber:"You Don`t Buy Any NFTs Yet",title:"OOOPS"}}</HeadAlert>
+                   <HeadAlert >{{account:account,createdNumber:"No NFTs",title:"OOOPS"}}</HeadAlert>
 
                   </> :<>
-                  <HeadAlert >{{account:account,createdNumber:`You Purchased ${purchasedItems.length} NFTS`,title:"Good Job"}}</HeadAlert>
+                  <HeadAlert >{{account:account,createdNumber:`You Purchased ${purchasedItems.length} NFTs`,title:"Good Job"}}</HeadAlert>
 
 
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 pt-1">
